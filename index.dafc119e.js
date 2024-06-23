@@ -1,0 +1,2 @@
+var a,r,t;function e(a){return parseInt(a.replace(/\$|,/g,""))}(r=Array.from((a=document.querySelector("ul")).children)).sort(function(a,r){var t=e(a.dataset.salary);return e(r.dataset.salary)-t}),r.forEach(function(r){return a.append(r)}),t=[],Array.from(document.querySelectorAll("ul li")).forEach(function(a){var r={name:a.textContent,position:a.dataset.position,salary:e(a.dataset.salary),age:a.dataset.age};t.push(r)});
+//# sourceMappingURL=index.dafc119e.js.map
